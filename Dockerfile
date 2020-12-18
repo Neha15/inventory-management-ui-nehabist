@@ -21,7 +21,7 @@ COPY package.json .
 RUN npm install --production
 
 ENV NODE_ENV=production
-ENV HOST=0.0.0.0 PORT=3000
+ENV HOST=127.0.0.1 PORT=3000
 
 EXPOSE 3000/tcp
 
